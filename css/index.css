@@ -10,13 +10,14 @@ a, li {
     color: #fff;
 }
 
+/*Logo de la barra de navegacion*/
 .logo-header img{
     height: 40px; 
     width: 100px;
 
 }
 
-
+/*Barra de navegacion*/
 .header{
     background-color: #25346c;
     display: flex;
@@ -48,7 +49,71 @@ a, li {
 .menu li:last-child:hover{
     background: transparent;
     border: 2px solid #cf152b;  
+    
 }
+
+
+/*Portada*/
+.portada-titulo h1, h5{
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.slider{
+    width: 100%;
+    margin: auto;
+    height: 900px;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite alternate linear;
+
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}*/
+
+
 
 body{
     font-family:Arial, Helvetica, sans-serif;
